@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — FoodieHub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <style>
+    /* Page Background */
+    body.about-page {
+        background: linear-gradient(to bottom, #d9d5dc, #f1f1f3);
+        min-height: 100vh;
+    }
+
+    /* Make sections blend with background */
+    .about-section,
+    .promise-section {
+        background: rgba(172, 158, 158, 0.25);
+        backdrop-filter: blur(8px);
+        padding: 50px 8%;
+        border-radius: 20px;
+        max-width: 1000px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .about-section p,
+    .promise-section p {
+        color: #4f3a30;
+        line-height: 1.6;
+        max-width: 850px;
+        margin: auto;
+    }
+
+    .about-section h2,
+    .promise-section h2 {
+        color: #93588a;
+        margin-bottom: 18px;
+    }
+  </style>
+
+</head>
+<body class="about-page">
+
+  <!-- HEADER -->
+  <header class="header"> 
+    <div class="brand">
+      <div class="logo">DE</div>
+      <div>
+        <div style="font-size:0.98rem">Delicious Eats</div>
+        <div style="font-size:0.72rem;opacity:0.9;margin-top:2px">Fresh. Fast. Friendly.</div>
+      </div>
+    </div>
+
+    <nav class="nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="order.html">Order</a>
+      <a href="cart.html">Cart <span id="cart-count" style="background:rgba(255,255,255,0.15);padding:4px 8px;border-radius:8px;margin-left:6px">0</span></a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div style="display:flex;align-items:center;gap:12px">
+      <div style="color:white;font-weight:700">Hi!!</div>
+      <div id="hamb" class="hamburger"><div></div><div></div><div></div></div>
+    </div>
+  </header>
+
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section">
+      <h2>About Delicious Eats</h2>
+      <p>
+        Every great brand begins with a story, and this is ours. This section unveils the passion, purpose, 
+        and inspiration behind our journey. It highlights what motivates us, the challenges we turned into 
+        opportunities, and the vision that keeps us moving forward.
+      </p>
+      <br>
+      <p>
+        Behind every choice we make is a commitment to simplicity and authenticity. We focus on what truly 
+        matters: creating reliable experiences, offering good value, and ensuring that every interaction 
+        feels seamless. From the way we design our services to the way we connect with our users, we aim 
+        to keep things intuitive, clear, and approachable.
+      </p>
+    </section>
+
+
+    <!-- PROMISE SECTION -->
+    <section class="promise-section">
+      <h2>Our Promise</h2>
+      <p>
+        Quality ingredients, transparent pricing, and quick delivery. That’s the FoodieHub guarantee.
+      </p>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <div class="footer">© 2025 FoodieHub</div>
+
+</body>
+</html>
